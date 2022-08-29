@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Entertainment Design</title>
+  <meta name="description" content="ページの概要文を記載します">
+  <!-- レスポンシブ対応 -->
+  <meta name="viewport" content="width=device-width">
+  <!-- 電話番号の自動リンクを無効にする -->
+  <!-- <meta name="format-detection" content="telephone=no"> -->
+  <!-- クローラーのインデックスを停止 -->
+  <meta name="robots" content="noindex , nofollow" />
+  <!-- OGP設定 -->
+  <meta property="og:title" content="タイトル">
+  <meta property="og:type" content="website または　blog または　article">
+  <meta property="og:description" content="ページの簡単な説明">
+  <meta property="og:url" content="ページのURL絶対パス">
+  <meta property="og:site_name" content="サイトのタイトル">
+  <meta property="og:image" content="サムネイル画像のURL">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!-- twitter用の記述 -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- facebook用の記述[App-ID（15文字の半角数字）] -->
+  <meta property="fb:app_id" content="App-ID" />
+  <!-- 個人アカウントはarticle:author 企業アカウントは article:publisher。contentは FacebookページのURL Fbない場合削除 -->
+  <meta property="article:publisher" content="https://www.facebook.com/xxxnamexxx">
+  <!-- javascript -->
+  <script src="./js/toggle-menu.js"></script>
+  <!-- css -->
+  <link href="./css/common.css" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <!-- css Font Awesome読み込み -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- ファビコン -->
+  <!-- <link rel="icon" href=""> -->
+  <!-- <link rel="apple-touch-icon" href=""> -->
+  <!-- ウェブフォントを指定する場合コードを添付（Google Fonts等) -->
+
+</head>
+
+<!-- wrapper container section inner nav content-->
+
+<body>
+
+  <!-- headerここから -->
+  <header>
+    <div class="header-container container">
+      <h1 class="logo">
+        <img class="logo-img" src="./images/logo.svg" alt="">
+      </h1>
+      <nav class="menu">
+        <ul>
+          <li>NEWS</li>
+          <li>ABOUT</li>
+          <li>BUSINESS</li>
+          <li>COMPANY</li>
+        </ul>
+      </nav>
+    </div>
+    <a class="contact" href="#">お問合せ</a>
+  </header>
+  <!-- headerここまで -->
+
+  <!-- mainここから -->
+  <main>
+    <div id="mainvisual">
+      <img src="./images/mainvisual.jpeg" alt="">
+    </div>
+
+    <section id="news">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">NEWS</span>
+          <span class="ja">ニュース</span>
+        </h2>
+        <div class="newscontent">
+          <ul>
+            <li><time datetime="2021-01-01">2021.01.01</time><span>NEWS</span></li>
+            <li>タイトルタイトルタイトルタイトル</li>
+          </ul>
+          <ul>
+            <li><time datetime="2021-01-01">2021.01.01</time><span>PRESS</span></li>
+            <li>タイトルタイトルタイトルタイトル</li>
+          </ul>
+          <ul>
+            <li><time datetime="2021-01-01">2021.01.01</time><span>NEWS</span></li>
+            <li>タイトルタイトルタイトルタイトル</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="aboutcontent">
+        <img src="./images/about.jpeg" alt="">
+        <div class="content">
+          <h2 class="section-title">
+            <span class="en">ABOUT</span>
+            <span class="ja">私たちについて</span>
+          </h2>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="business">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">BUSINESS</span>
+          <span class="ja">事業内容</span>
+        </h2>
+        <div class="content">
+          <div class="flex-left">
+            <p>web制作</p>
+            <img src="./images/business1.jpeg" alt="">
+            <p>インターネットメディア事業</p>
+            <img src="./images/business2.jpeg" alt="">
+          </div>
+          <div class="flex-right">
+            <p>プロモーション企画・制作</p>
+            <img src="./images/business3.jpeg" alt="">
+            <p>ソーシャル企画・運営</p>
+            <img src="./images/business4.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="company">
+      <div class="container">
+        <div class="flex-left">
+          <h2 class="section-title">
+            <span class="en">COMPANY</span>
+            <span class="ja">会社情報</span>
+          </h2>
+          <dl>
+            <dt>会社名</dt>
+            <dd>ウェブエンターテイメントデザイン株式会社</dd>
+            <dt>所在地</dt>
+            <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+            <dt>代表</dt>
+            <dd><span class="name">XXXXXX</span></dd>
+            <dt>設立</dt>
+            <dd>2021年1月1日</dd>
+            <dt>資本金</dt>
+            <dd>3,000,000円</dd>
+            <dt>事業内容</dt>
+            <dd>Web制作・マーケティング</dd>
+            <dt></dt>
+            <dd>インターネットメディア事業</dd>
+            <dt></dt>
+            <dd>プロモーション企画・制作</dd>
+            <dt></dt>
+            <dd>ソーシャル企画・運営</dd>
+          </dl>
+        </div>
+        <div class="flex-right">
+          <img src="./images/company.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- mainここまで -->
+
+  <!-- footerここから -->
+  <footer>
+    <div class="container">
+      <img class="logo" src="./images/logo.svg" alt="">
+      <ul>
+        <li>Web Entertainmento Design Inc.</li>
+        <li>West Building 3F</li>
+        <li>9-99 Sakuragaokacho Shibuya-ku</li>
+        <li>Tokyo,Japan 150-0031</li>
+        <li>T/99-9999-9999</li>
+      </ul>
+    </div>
+    <div class="copyright container">
+      <p>&copy; Web Entertainment Design Inc.</p>
+    </div>
+  </footer>
+  <!-- footerここまで -->
+
+</body>
+
+</html>
